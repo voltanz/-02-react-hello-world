@@ -106,3 +106,32 @@ Jika Anda menggunakan SSG, Next.js akan membangun situs web statis Anda terlebih
 2. Hapus isi file README.md yang ada di project hello-world tersebut, kemudian isi dengan jawaban praktikum mulai dari soal 1 hingga 3.
 3. Jangan lupa push project dan jawaban Anda melalui VS Code dengan pesan commit "Week 02: belajar react"
 4. Cobalah buat project react lainnya dengan menggunakan framework Remix dan Gatsby. Ini tidak perlu di push, cukup screenshot dan jelaskan perbedaannya diantara ketiga framework tersebut (termasuk Next.js) di file README nomor 1.
+
+Jawab: <p>
+- Remix:<p>
+Instalasi Remix Framework
+![Output](docs/test_remix.png)<p>
+Hasil npm run dev<p>
+![Output](docs/test_remix_1.png)
+- Gatsby:<p>
+Instalasi Gatsby Framework
+![Output](docs/test_gatsby.png)<p>
+Hasil npm run dev<p>
+![Output](docs/test_gatsby_1.png)<p>
+<br>
+Penjelasan:
+- Next.js:<p>
+Next.js memiliki fitur server-side rendered (SSR), statically generated (SSG), routing, SEO, image optimization, API routes, internationalization, dll.<p>
+Kelebihan: Fleksibel, banyak fitur, komunitas besar, dokumentasi lengkap.<p>
+Kekurangan: Kompleksitas, kurva belajar curam, overhead performa.<p>
+Next.js ocok untuk berbagai proyek web, termasuk aplikasi web kompleks, situs e-commerce, dan blog.
+- Remix:<p>
+Memiliki fitur server-side rendered (SSR), routing, data fetching, error handling, websockets, dll.<p>
+Kelebihan: Performa tinggi, developer experience yang baik, mudah dipelajari, komunitas berkembang.<p>
+Kekurangan: Fitur lebih sedikit dibandingkan Next.js, komunitas belum sebesar Next.js.<p>
+Remix cocok untuk proyek web yang membutuhkan performa tinggi dan developer experience yang baik.
+- Gatsby:<p>
+Memiliki fitur statically generated (SSG), routing, SEO, image optimization, data fetching, plugin ecosystem, dll.<p>
+Kelebihan: Performa tinggi, mudah dipelajari, ideal untuk situs statis, komunitas besar.<p>
+Kekurangan: Kurang fleksibel dibandingkan Next.js, tidak mendukung SSR secara native.<p>
+Gatsby cocok untuk situs statis yang membutuhkan performa tinggi dan SEO yang baik
